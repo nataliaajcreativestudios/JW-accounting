@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Inicio</title>
+<meta charset="utf-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+<meta name = "format-detection" content = "telephone=no" />
+<!--CSS-->
+<link rel="stylesheet" href="css/bootstrap.css" >
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/stuck.css">
+<link rel="stylesheet" href="fonts/font-awesome.css">
+<!--JS-->
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<script src="js/jquery.mousewheel.min.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/tmstickup.js"></script>
+
+<script>
+    $(window).load(function() {
+        $(function() {
+            $('#foo1').carouFredSel({
+    			auto: false,
+    			responsive: true,
+    			width: '100%',
+    			scroll: 1,
+                pagination  : "#foo2_pag",
+    			items: {
+    				height: 'auto',
+    				width:370,
+    				visible: {
+    					min: 1,
+    					max: 1
+    				}
+    			},
+    			mousewheel: true,
+    			swipe: {
+    				onMouse: true,
+    				onTouch: true
+    			}
+    		});
+    	}); 	 				
+    });
+</script>
+<script src="js/wow/wow.js"></script>
+<script src="js/wow/device.min.js"></script>
+<script>
+$(document).ready(function () {       
+  if ($('html').hasClass('desktop')) {
+    new WOW().init();
+  }   
+});
+</script>
+<!--[if lt IE 9]>
+    <div style='text-align:center; position:relative; width: 100%; z-index:999'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div>  
+  <![endif]-->
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <link rel="stylesheet" href="css/ie.css">
+  <![endif]-->
+</head>
+<body>
+<!--header-->
+<header id="stuck_container"> 
+    <div class="container"> 
+        <h1 class="navbar-brand navbar-brand_"><a href="index.html"><img src="img/logo.png" alt="logo"></a></h1>
+        <a href="index.html" style="float:right; font-weight: 600; text-transform:uppercase;">Inglés</a>
+        <nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
+            <ul class="nav sf-menu clearfix">
+                <li class="active sub-menu"><a href="inicio.html">Inicio</a>
+                </li>
+                <li><a href="compania.html">Compañía</a></li>
+                <li class="sub-menu"><a>Servicios</a>
+                    <ul >
+                        <li ><a href="servicios-empresa.html">Para Empresas</a></li>
+                        <li ><a href="personas.html">Para Personas</a></li>
+                    </ul>
+                </li>
+                <li><a href="recursos.html">Recursos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                 <li><a class="c-wizardLink--top padding--lv3" href="http://jw-accounting.com/newsletterjw/" onclick="_mc.openPopupForm(); return false;">Noticias</a></li>
+                <!--<li><a href="#">Realizar un Pago</a></li>-->
+            </ul>
+        </nav>
+    </div>
+</header>
+<div class="global">
+<div class="bg_pic"> 
+    <div class="container wow fadeInUp"> 
+        <p class="title">Proveemos asesoría cuando su negocio lo necesita,<br>¡no sólo cuando lo pida!</p>
+        <img src="img/romb.png" alt="">
+        <p class="description">Estamos preparados para ayudarle, quedará satisfecho con nuestra ayuda.</p>
+        <a href="servicios-empresa.html" class="btn-default btn1">Leer Más</a>
+    </div>
+</div>
+<!--content-->  
+<div class="about-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-7 wow fadeInLeft">
+                <h2>Bienvenido a nuestra página web! <strong><span></span></strong></h2><br>
+                <p style="text-align:justify;">Somos una empresa de servicios contables con más de 25 años de experiencia donde ayudamos a nuestros clientes a lograr una adecuada gestión en el riguroso cumplimiento de sus obligaciones tributarias, nos encargamos de sus libros financieros para que pueda concentrarse en su negocio y generar beneficios , haciendo énfasis en la búsqueda de soluciones eficaces que facilitan la toma de decisiones sobre la administración de su empresa.</p>
+                <a href="compania.html" class="btn-default btn1">Leer Más</a>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-5 wow fadeInRight">
+                <figure><img src="img/page1_pic1.jpg" alt=""></figure>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="services-box">
+    <div class="container">
+        <h2>Nuestros Servicios<strong><span></span></strong></h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="thumb-pad1 wow fadeInLeft">
+                    <div class="thumbnail">
+                        <div class="badge"><i>0</i>1</div>
+                        <div class="caption">
+                            <h3>Bookkeeping</h3>
+                            <p> Nos encargamos de su contabilidad, para que pueda volver al trabajo, dirigir su negocio y generar beneficios.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp">
+                <div class="thumb-pad1">
+                    <div class="thumbnail">
+                        <div class="badge"><i>0</i>2</div>
+                        <div class="caption">
+                            <h3>Servicios de Nómina</h3>
+                            <p>Ofrecemos soluciones de nómina que satisfacen las necesidades de su negocio y le permiten pasar tiempo haciendo lo que mejor sabe hacer: gestionar su empresa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInRight">
+                <div class="thumb-pad1">
+                    <div class="thumbnail">
+                        <div class="badge"><i>0</i>3</div>
+                        <div class="caption">
+                            <h3>Auditorías – Revisiones – Compilaciones</h3>
+                            <p>Sus accionistas, acreedores o inversionistas privados tienen diferentes niveles de tolerancia al riesgo, por lo que ofrecemos tres niveles de garantía para satisfacer sus necesidades.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="advantages-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInLeft">
+                    <h2>HORARIO DE  OFICINA TEMPORADA DE IMPUESTOS  2017<strong><span></span></strong></h2><br>
+                    <p>
+                        Lunes: 9:00 am – 8:00 pm<br>
+                        Martes: 10:00 am – 6:00 pm<br>
+                        Miércoles: 10:00 am – 6:00 pm<br>
+                        Jueves: 9:00 am – 8:00 pm<br>
+                        Viernes: 9:00 am – 8:00 pm<br>
+                        Sábado: 10:00 am – 7:00 pm<br>
+                        Domingo: 11:00 am – 4:00 pm<br>
+                        
+                    </p>
+                <a href="compania.html" class="btn-default btn1">Leer Más</a>
+            </div>
+            
+            <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInRight">
+                <h2>Contacto <strong><span></span></strong></h2><br>
+                <div class="thumb-pad2">
+                    <div class="thumbnail">
+                        <p><span class="fa fa-phone"> Teléfono: </span><a href="tel:7186722270"> 718-672-2270</a> <br><span class="fa fa-fax"> Fax: </span><a href="tel:7187859490"> 718-785-9490</a></p>
+                        <p><span class="fa fa-mail-forward"> Correo: </span> velkast@gmail.com</p>
+                    </div>
+                </div>
+                
+                <a href="contacto.html" class="btn-default btn1">Leer Más</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-box2">
+    <div class="container wow fadeInUp">
+        <figure><img src="img/quote_border.png" alt=""></figure>
+        <div class="list_carousel1 responsive clearfix">
+            <ul id="foo1">
+                <li><p class="title">Tenemos servicios en el estado de Nueva York, </p><p class="name"><em></em>y tenemos clientes de costa a costa.<i></i></p></li>
+                <li><p class="title"> Nuestros precios son </p><p class="name"><em></em>muy asequibles.<i></i></p></li>
+                <li><p class="title">Nuestras consultas </p><p class="name"><em></em>ya están incluidas en el precio.<i></i></p></li>
+            </ul>
+            <div class="foo-btn clearfix">
+                <div id="foo2_pag"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--footer-->
+<footer>
+    <div class="container">
+        <p>J&W Accounting &copy; <em id="copyright-year"></em> 
+            <span> | </span> 
+            
+          
+        </p>
+        <p>
+            
+            <a class="_blank" title="AJ link" href="http://www.ajcreativestudios.com/index.php/en/" target="_blank"> AJ Creative Studios </a>
+            <span> | </span> 
+        </p>   
+            
+        <ul class="follow_icon">
+            <li><a href="https://www.facebook.com/jw.accounting/"><img src="img/follow_icon1.png" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/company/j&waccounting"><img src="img/follow_icon2.png" alt=""></a></li>
+            <li><a href="https://plus.google.com/u/0/110858252475423301302"><img src="img/follow_icon4.png" alt=""></a></li>
+        </ul>
+    </div>
+  
+</footer>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+</body>
+</html>
